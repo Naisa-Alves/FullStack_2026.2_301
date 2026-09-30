@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Aula 3 - Box Model e Flexbox</title>
+  <style>
+    /* Container principal usando Flexbox */
+    .container {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 20px;
+    }
+
+    /* Demonstração de Box Model */
+    .caixa {
+      width: 150px;
+      padding: 15px;       /* Espaço interno */
+      border: 2px solid #333; /* Borda */
+      margin: 10px;        /* Espaço externo */
+      background-color: #e0f7fa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="caixa">Caixa 1</div>
+    <div class="caixa">Caixa 2</div>
+  </div>
+</body>
+</html>
