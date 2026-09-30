@@ -1,0 +1,27 @@
+/* Resumo Aula 2 - Seletores e Estilização */
+
+/* Estilização global da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+/* Exemplo de classe reutilizável */
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Exemplo de ID único */
+#botao-destaque {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
